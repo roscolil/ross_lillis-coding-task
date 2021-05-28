@@ -1,0 +1,14 @@
+{
+  "name": "toy-robot",
+  "version": "1.0.0",
+  "description": "Activepipe coding task",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ross Lillis (rosslillis.com)",
+  "license": "ISC",
+  "bin": {
+    "hello": "./bin/index.js"
+  }
+}
