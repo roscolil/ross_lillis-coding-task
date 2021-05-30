@@ -1,3 +1,4 @@
 #!/usr/bin/env node
 
-console.log("Hello!");
+require = require("esm")(module)
+module.exports = require("./src/app.js")
