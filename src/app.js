@@ -1,10 +1,15 @@
 import header from './header'
-const readline = require('readline');
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+import commands from './commands'
 
+// ------------------------- DECLARE & CALL MAIN PROGRAM FUNCTION ------------------------- //
+const mainGame = () => {
+  // Display greeting
+  header.printHeading()
+  header.printInstructions()
 
-header.printHeading()
-header.printInstructions()
+  // Get player name
+  commands.getName()
+
+}
+
+mainGame()
